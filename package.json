@@ -1,11 +1,14 @@
 {
   "name": "vueframe-lite-vimeo-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A faster vimeo embed.",
   "type": "module",
   "main": "lite-vimeo-embed.js",
   "private": false,
-  "files": ["lite-vimeo-embed.js", "readme.md"],
+  "files": [
+    "lite-vimeo-embed.js",
+    "readme.md"
+  ],
   "scripts": {
     "lint": "npx eslint *.js -c ./node_modules/wet-run/.eslintrc.json",
     "dev": "wet serve"
