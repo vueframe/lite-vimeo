@@ -109,6 +109,7 @@ class LiteVimeo extends (globalThis.HTMLElement ?? class {}) {
 
   connectedCallback() {
     this.videoId = this.getAttribute('videoid');
+    this.params = this.getAttribute('params');
 
     /**
      * Lo, the vimeo placeholder image!  (aka the thumbnail, poster image, etc)
@@ -119,14 +120,6 @@ class LiteVimeo extends (globalThis.HTMLElement ?? class {}) {
     if (devicePixelRatio >= 2) devicePixelRatio *= .75;
     width = Math.round(width * devicePixelRatio);
     height = Math.round(height * devicePixelRatio);
-
-    fetch(`https://vimeo.com/api/v2/video/${this.videoId}.json`)
-      .then(response => response.json())
-      .then(data => {
-        let thumbnailUrl = data[0].thumbnail_large;
-        thumbnailUrl = thumbnailUrl.replace(/-d_[\dx]+$/i, `-d_${width}x${height}`);
-        this.style.backgroundImage = `url("${thumbnailUrl}")`;
-      });
 
     let playBtnEl = this.querySelector('.ltv-playbtn');
     // A label for the button takes priority over a [playlabel] attribute on the custom-element
