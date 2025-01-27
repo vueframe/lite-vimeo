@@ -1,6 +1,6 @@
 {
-  "name": "vueframe-lite-vimeo-embed",
-  "version": "1.0.1",
+  "name": "@vueframe/lite-vimeo-embed",
+  "version": "1.0.0",
   "description": "A faster vimeo embed.",
   "type": "module",
   "main": "lite-vimeo-embed.js",
