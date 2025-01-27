@@ -68,21 +68,6 @@ style.textContent = /*css*/`
     pointer-events: none;
   }
 `;
-
-/**
- * Ported from https://github.com/paulirish/lite-youtube-embed
- *
- * A lightweight vimeo embed. Still should feel the same to the user, just MUCH faster to initialize and paint.
- *
- * Thx to these as the inspiration
- *   https://storage.googleapis.com/amp-vs-non-amp/youtube-lazy.html
- *   https://autoplay-youtube-player.glitch.me/
- *
- * Once built it, I also found these:
- *   https://github.com/ampproject/amphtml/blob/master/extensions/amp-youtube (👍👍)
- *   https://github.com/Daugilas/lazyYT
- *   https://github.com/vb/lazyframe
- */
 class LiteVimeo extends (globalThis.HTMLElement ?? class {}) {
   /**
    * Begin pre-connecting to warm up the iframe load
