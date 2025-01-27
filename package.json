@@ -1,7 +1,7 @@
 {
   "name": "@vueframe/lite-vimeo-embed",
   "version": "1.0.0",
-  "description": "A faster vimeo embed.",
+  "description": "@vueframe/lite-vimeo-embed",
   "type": "module",
   "main": "lite-vimeo-embed.js",
   "private": false,
@@ -13,16 +13,16 @@
     "lint": "npx eslint *.js -c ./node_modules/wet-run/.eslintrc.json",
     "dev": "wet serve"
   },
-  "author": "Wesley Luyten <me@wesleyluyten.com> (https://wesleyluyten.com)",
+  "author": "vueframe",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luwes/lite-vimeo-embed.git"
+    "url": "git+https://github.com/vueframe/lite-vimeo-embed.git"
   },
   "bugs": {
-    "url": "https://github.com/luwes/lite-vimeo-embed/issues"
+    "url": "https://github.com/vueframe/lite-vimeo-embed/issues"
   },
-  "homepage": "https://github.com/luwes/lite-vimeo-embed#readme",
+  "homepage": "https://github.com/vueframe/lite-vimeo-embed#readme",
   "keywords": [
     "vimeo",
     "custom element",
