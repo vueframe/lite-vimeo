@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "@vueframe/lite-vimeo-embed",
   "type": "module",
-  "main": "lite-vimeo-embed.js",
+  "main": "lite-vimeo-embed.min.js",
   "private": false,
   "files": [
     "lite-vimeo-embed.js",
