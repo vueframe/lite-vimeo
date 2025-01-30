@@ -1,1 +1,1 @@
-# @vueframe/lite-vimeo-embed
+# @vueframe/lite-vimeo
