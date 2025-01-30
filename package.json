@@ -1,12 +1,13 @@
 {
-  "name": "@vueframe/lite-vimeo-embed",
+  "name": "@vueframe/lite-vimeo",
   "version": "1.0.2",
-  "description": "@vueframe/lite-vimeo-embed",
+  "description": "@vueframe/lite-vimeo",
   "type": "module",
-  "main": "lite-vimeo-embed.min.js",
+  "main": "lite-vimeo.min.js",
   "private": false,
   "files": [
-    "lite-vimeo-embed.js",
+    "lite-vimeo.js",
+    "lite-vimeo.min.js",
     "readme.md"
   ],
   "scripts": {
