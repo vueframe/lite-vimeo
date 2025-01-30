@@ -1,6 +1,6 @@
 {
   "name": "@vueframe/lite-vimeo",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "@vueframe/lite-vimeo",
   "type": "module",
   "main": "lite-vimeo.min.js",
