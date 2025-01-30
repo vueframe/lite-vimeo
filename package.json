@@ -6,7 +6,6 @@
   "main": "lite-vimeo.min.js",
   "private": false,
   "files": [
-    "lite-vimeo.js",
     "lite-vimeo.min.js",
     "readme.md"
   ],
