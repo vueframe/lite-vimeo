@@ -3,10 +3,10 @@
   "version": "2.0.5",
   "description": "@vueframe/lite-vimeo",
   "type": "module",
-  "main": "lite-vimeo.min.js",
+  "main": "dist/lite-vimeo.min.js",
   "private": false,
   "files": [
-    "lite-vimeo.min.js",
+    "dist/lite-vimeo.min.js",
     "readme.md"
   ],
   "scripts": {
