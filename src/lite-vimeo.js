@@ -142,6 +142,7 @@ class LiteVimeo extends (globalThis.HTMLElement ?? class {}) {
     const iframeEl = document.createElement('iframe');
     iframeEl.width = 640;
     iframeEl.height = 360;
+    iframeEl.setAttribute('frameborder', '0');
     // No encoding necessary as [title] is safe. https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html#:~:text=Safe%20HTML%20Attributes%20include
     iframeEl.title = this.playLabel;
     iframeEl.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
