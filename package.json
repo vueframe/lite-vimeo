@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vueframe/lite-vimeo-embed.git"
+    "url": "git+https://github.com/vueframe/lite-vimeo.git"
   },
   "bugs": {
-    "url": "https://github.com/vueframe/lite-vimeo-embed/issues"
+    "url": "https://github.com/vueframe/lite-vimeo/issues"
   },
-  "homepage": "https://github.com/vueframe/lite-vimeo-embed#readme",
+  "homepage": "https://github.com/vueframe/lite-vimeo#readme",
   "keywords": [
     "vimeo",
     "vueframe"
