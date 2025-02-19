@@ -4,9 +4,10 @@
   "description": "@vueframe/lite-vimeo",
   "type": "module",
   "main": "dist/lite-vimeo.min.js",
+  "css": "dist/lite-vimeo.min.css",
   "private": false,
   "files": [
-    "dist/lite-vimeo.min.js",
+    "dist/",
     "readme.md"
   ],
   "scripts": {
